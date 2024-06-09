@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .nav-title{
+    @apply px-4 py-8 bg-green-300 text-lg text-white
+  }
+  .card-container {
+    @apply flex flex-wrap justify-center mt-4
+  }
+  .card{
+    @apply shadow-md rounded-lg bg-slate-100 max-w-[300px] mx-[10px]
+  }
+  .image-container{
+    @apply w-full h-[200px]
+  }
+  .image{
+    @apply w-full object-cover h-[300px]
+  }
+  .content-container{
+    @apply px-3 py-2
+  }
+
+}
